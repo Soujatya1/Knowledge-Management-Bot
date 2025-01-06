@@ -14,8 +14,8 @@ import requests
 from langdetect import detect, DetectorFactory
 from langdetect.lang_detect_exception import LangDetectException
 
-st.title("Document Comparer!")
-st.subheader("Compare Your Documents")
+st.title("Document Q&A")
+st.subheader("Chat With Your Documents!")
 
 DetectorFactory.seed = 0
 
